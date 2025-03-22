@@ -142,6 +142,20 @@ nav {
   text-decoration: underline;
 }
 
+/*Planes*/
+.destacado {
+  background-color: #dc3545 !important;
+  color: white !important;
+}
+.destacado h3, .destacado p, .destacado strong {
+  color: white !important;
+}
+
+/*Tabla*/
+
+.table th, .table td {
+  vertical-align: middle;
+}
 
 /*Footer */
 footer {

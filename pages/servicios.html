@@ -37,65 +37,94 @@
     </nav>
   </header>
 
-<!-- <section class="container-plan mt-5">
+  <section class="planes py-5 bg-light text-center">
+    <h2 class="mt-5 mb-3">Nuestros Planes</h2>
+    <p class="mb-4">Elige el plan que mejor se adapte a ti.</p>
+  
     <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card border-0 shadow-lg p-4">
-                <div class="card-header d-flex justify-content-between align-items-center bg-primary text-white p-2 rounded">
-                    <div class="badge bg-danger">Nuevo</div>
-                    <span class="fw-bold">MENSUAL</span>
-                </div>
-                <h2 class="text-center text-uppercase mt-3">PLAN FLEX</h2>
-                <div class="precio text-center my-3">
-                    <span class="fs-3 fw-bold">$36.000</span>
-                    <span class="text-muted">/ mes</span>
-                </div>
-                <div class="beneficios text-center">
-                    <p class="fw-bold">Administra tu membresía</p>
-                    <p class="text-muted small">* Acceso libre a sedes Flex y con costo adicional a Sedes Plus y Total.</p>
-                    <span class="fw-bold text-success">¡Accede a +450 sedes!</span>
-                </div>
-                <button class="btn btn-primary w-100 mt-3">ASOCIADO</button>
-                <hr>
-                <p class="text-center fw-bold">Podés acceder a las siguientes sedes:</p>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Flex - Sin costo adicional</li>
-                    <li class="list-group-item">Otras sedes con costo adicional</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section> 
- -->
-<section class="planes">
-  <h2>Nuestros Planes</h2>
-  <p>Elige el plan que mejor se adapte a ti.</p>
-
-  <div class="row justify-content-center">
-
-    <div class="col-md-6 col-lg-3 card border-0 shadow-lg p-4">
-        <h3 class="text-center text-uppercase mt-3">Básico</h3>
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-lg p-4 bg-white rounded">
+          <h3 class="text-uppercase">Básico</h3>
           <p>Acceso al gimnasio en horario limitado.</p>
+          <ul class="text-start">
+            <li>Acceso de 8 AM a 6 PM</li>
+            <li>Uso de áreas comunes</li>
+            <li>Vestidores y duchas</li>
+            <li>Acceso a máquinas de cardio</li>
+            <li>Rutina estándar de entrenamiento</li>
+          </ul>
           <p class="text-center my-3"><strong>$20/mes</strong></p>
-        <a href="#" class="btn btn-danger">Elegir Plan</a>
+          <button class="btn btn-danger w-100">Elegir Plan</button>
+        </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-lg p-4 destacado rounded text-white">
+          <h3 class="text-uppercase">Premium</h3>
+          <p>Acceso ilimitado + clases especiales.</p>
+          <ul class="text-start">
+            <li>Acceso 24/7</li>
+            <li>Clases grupales incluidas</li>
+            <li>Acceso a sauna y spa</li>
+            <li>Asesoría nutricional básica</li>
+            <li>Acceso a zona de pesas libres</li>
+          </ul>
+          <p class="text-center my-3"><strong>$40/mes</strong></p>
+          <button class="btn btn-light w-100">Elegir Plan</button>
+        </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-lg p-4 bg-white rounded">
+          <h3 class="text-uppercase">VIP</h3>
+          <p>Acceso 24/7 + entrenador personal.</p>
+          <ul class="text-start">
+            <li>Acceso 24/7</li>
+            <li>Clases grupales y personalizadas</li>
+            <li>Entrenador personal asignado</li>
+            <li>Acceso a zona VIP</li>
+            <li>Plan de alimentación personalizado</li>
+            <li>Evaluaciones físicas mensuales</li>
+          </ul>
+          <p class="text-center my-3"><strong>$60/mes</strong></p>
+          <button class="btn btn-danger w-100">Elegir Plan</button>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="col-md-6 col-lg-3 card border-0 shadow-lg p-4">
-      <h3 class="text-center text-uppercase mt-3">Premium</h3>
-      <p>Acceso ilimitado + clases especiales.</p>
-      <p class="text-center my-3"><strong>$40/mes</strong></p>
-      <a href="#" class="btn btn-danger">Elegir Plan</a>
+  <section class="cuadro py-5 bg-light text-center">
+    <h2 class="mt-5 mb-3">Horario de Clases</h2>
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center">
+          <thead class="bg-danger text-white">
+            <tr>
+              <th>Hora</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+              <th>Sábado</th>
+              <th>Reservar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>8:00 AM</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>9:00 AM</td><td>Yoga</td><td>-</td><td>CrossFit</td><td>-</td><td>Musculación</td><td>Pilates</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>10:00 AM</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>11:00 AM</td><td>-</td><td>CrossFit</td><td>Yoga</td><td>-</td><td>Pilates</td><td>-</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>12:00 PM</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td>Musculación</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>4:00 PM</td><td>CrossFit</td><td>Musculación</td><td>-</td><td>Yoga</td><td>-</td><td>Pilates</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>6:00 PM</td><td>Musculación</td><td>Yoga</td><td>CrossFit</td><td>Musculación</td><td>-</td><td>-</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>8:00 PM</td><td>Pilates</td><td>-</td><td>CrossFit</td><td>Musculación</td><td>Yoga</td><td>-</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+            <tr><td>10:00 PM</td><td>-</td><td>CrossFit</td><td>Yoga</td><td>Pilates</td><td>Musculación</td><td>-</td><td><button class="btn btn-danger">Reservar</button></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-
-    <div class="col-md-6 col-lg-3 card border-0 shadow-lg p-4">
-      <h3 class="text-center text-uppercase mt-3">VIP</h3>
-      <p>Acceso 24/7 + entrenador personal.</p>
-      <p class="text-center my-3"><strong>$60/mes</strong></p>
-      <a href="#" class="btn btn-danger">Elegir Plan</a>
-    </div>
-
-  </div>
-</section>
+  </section>
 
 
   <footer>
