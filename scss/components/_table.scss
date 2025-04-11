@@ -1,0 +1,15 @@
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.destacado {
+  background-color: #dc3545 !important;
+  color: white !important;
+
+  h3,
+  p,
+  strong {
+    color: white !important;
+  }
+}

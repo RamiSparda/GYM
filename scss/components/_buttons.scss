@@ -1,0 +1,11 @@
+@use '../abstracts/variables';
+.btn-danger {
+    background-color: variables.$color-primario !important;
+    border-color: variables.$color-primario !important;
+  
+    &:hover {
+      background-color: variables.$color-primario-hover !important;
+      border-color: variables.$color-primario-hover !important;
+    }
+  }
+  
