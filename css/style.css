@@ -211,4 +211,47 @@ footer .footer-bottom {
   justify-content: space-between;
 }
 
+.toggle-checkbox {
+  display: none;
+}
+
+/* Icono hamburguesa */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Modo mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Mostramos menú si está chequeado */
+  .toggle-checkbox:checked + .hamburger + .menu {
+    display: flex;
+  }
+
+  .menu li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .menu a {
+    padding: 10px;
+    color: white;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
